@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A240F536-D2D5-431C-86C2-581C6AD2FED7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ProjectManagementPhaseII.clsStart</StartupObject>
+    <RootNamespace>ProjectManagementPhaseII</RootNamespace>
+    <AssemblyName>Project Management_PhaseII</AssemblyName>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Project Management_PhaseII.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Project Management_PhaseII.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base Classes\clsBase.vb" />
+    <Compile Include="Base Classes\clsListener.vb" />
+    <Compile Include="Base Classes\clsLog_Error.vb" />
+    <Compile Include="Base Classes\clsStart.vb" />
+    <Compile Include="Base Classes\clsTable.vb" />
+    <Compile Include="Base Classes\clsUtilities.vb" />
+    <Compile Include="Base Classes\DBConnection.vb" />
+    <Compile Include="Business Logics\clsActivity.vb" />
+    <Compile Include="Business Logics\clsApproval.vb" />
+    <Compile Include="Business Logics\clsBPMaster.vb" />
+    <Compile Include="Business Logics\clsBudget.vb" />
+    <Compile Include="Business Logics\clsBudgetDetails_Contract.vb" />
+    <Compile Include="Business Logics\clsChooseFromList.vb" />
+    <Compile Include="Business Logics\clsDocuments.vb" />
+    <Compile Include="Business Logics\clsEmployeePosition.vb" />
+    <Compile Include="Business Logics\clsEmpTimeSheet.vb" />
+    <Compile Include="Business Logics\clsExpances.vb" />
+    <Compile Include="Business Logics\clsExpaneEntry.vb" />
+    <Compile Include="Business Logics\clsExp_Posting.vb" />
+    <Compile Include="Business Logics\clsItemGroup.vb" />
+    <Compile Include="Business Logics\clsLeaverequest.vb" />
+    <Compile Include="Business Logics\clsLeaveType.vb" />
+    <Compile Include="Business Logics\clsLogin.vb" />
+    <Compile Include="Business Logics\clsModule.vb" />
+    <Compile Include="Business Logics\clsMyTasks.vb" />
+    <Compile Include="Business Logics\clsPrjTime.vb" />
+    <Compile Include="Business Logics\clsProjectMaster.vb" />
+    <Compile Include="Business Logics\clsReports.vb" />
+    <Compile Include="Business Logics\clsSystemForms.vb" />
+    <Compile Include="Business Logics\clsLoginSetup.vb" />
+    <Compile Include="Business Logics\ClsBOQ.vb" />
+    <Compile Include="Business Logics\clsBOQDefinition.vb" />
+    <Compile Include="Business Logics\clsChooseFromList_BOQ.vb" />
+    <Compile Include="Business Logics\clsBudgetEntry.vb" />
+    <Compile Include="Business Logics\clsCFLActvitity.vb" />
+    <Compile Include="Business Logics\clsBudgetTemplate.vb" />
+    <Compile Include="Business Logics\clsExpaneEntry_Account.vb" />
+    <Compile Include="Business Logics\clsContractAgreement.vb" />
+    <Compile Include="Business Logics\clsChangePassword.vb" />
+    <Compile Include="Business Logics\Custom_ChooseFromList.vb" />
+    <Compile Include="Modules\modVariables.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Modules\vssver.scc" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\XML Files\CFL.xml" />
+    <Content Include="bin\Debug\XML Files\CFL1.xml" />
+    <Content Include="bin\Debug\XML Files\frm_BudgetDetails_Contract.xml" />
+    <Content Include="bin\Debug\XML Files\xml_Contract.xml" />
+    <Content Include="bin\Debug\XML Files\frm_BudgetTemplate.xml" />
+    <Content Include="bin\Debug\XML Files\frm_ACT1.xml" />
+    <Content Include="bin\Debug\XML Files\frm_BudgetEntry.xml" />
+    <Content Include="bin\Debug\XML Files\frm_BOQDefine.xml" />
+    <Content Include="bin\Debug\XML Files\frm_BOQ.xml" />
+    <Content Include="bin\Debug\XML Files\frm_ApprovalDetails.xml" />
+    <Content Include="bin\Debug\XML Files\frm_Leave.xml" />
+    <Content Include="bin\Debug\XML Files\frm_TimeSheetEntry.xml" />
+    <Content Include="bin\Debug\XML Files\frm_Activity.xml" />
+    <Content Include="bin\Debug\XML Files\frm_Budget.xml" />
+    <Content Include="bin\Debug\XML Files\frm_EmpTime.xml" />
+    <Content Include="bin\Debug\XML Files\frm_ExpanceEntry.xml" />
+    <Content Include="bin\Debug\XML Files\frm_Expances.xml" />
+    <Content Include="bin\Debug\XML Files\frm_Login.xml" />
+    <Content Include="bin\Debug\XML Files\frm_Module.xml" />
+    <Content Include="bin\Debug\XML Files\frm_ProjectTime.xml" />
+    <Content Include="bin\Debug\XML Files\frm_report.xml" />
+    <Content Include="bin\Debug\XML Files\Menu.xml" />
+    <Content Include="bin\Debug\XML Files\RemoveMenus.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="SAPbobsCOM">
+      <Guid>{FC8030BE-F5D2-4B8E-8F92-44228FE30090}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="SAPbouiCOM">
+      <Guid>{6048236A-956D-498D-A6F1-9C81C13AB6E8}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\Log\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

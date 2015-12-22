@@ -1,0 +1,131 @@
+<Application>
+  <Menus>
+    <action type="add">
+      <Menu Checked="0" Enabled="1" FatherUID="43520" Image="" Position="13" String="Project Management"
+               Type="2" UniqueID="Z_mnu_04">
+      </Menu>
+
+      <Menu Checked="0" Enabled="1" FatherUID="43525" Image="" Position="7" String="Project Management"
+Type="2" UniqueID="Z_mnu_01">
+      </Menu>
+
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_01" Image="" Position="0" String="Project Phases Master"
+             Type="1" UniqueID="Z_mnu_03">
+      </Menu>
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_01" Image="" Position="1" String="Project Activities Master"
+								Type="1" UniqueID="Z_mnu_02">
+      </Menu>
+
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_01" Image="" Position="2" String="Project Expenses Master"
+								Type="1" UniqueID="Z_mnu_09">
+      </Menu>
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_01" Image="" Position="3" String="Employee Costs"
+								Type="1" UniqueID="Z_mnu_16">
+      </Menu>
+
+      <!--<Menu Checked="0" Enabled="1" FatherUID="Z_mnu_01" Image="" Position="4" String="Project Budget Details"
+								Type="1" UniqueID="Z_mnu_05">
+      </Menu>-->
+      
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_01" Image="" Position="4" String="Employee Leave Types"
+								Type="1" UniqueID="Z_mnu_18">
+      </Menu>
+
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_01" Image="" Position="5" String="ESS Login Credentials"
+          Type="1" UniqueID="Z_mnu_15">
+      </Menu>
+
+      <!--<Menu Checked="0" Enabled="1" FatherUID="Z_mnu_01" Image="" Position="4" String="Project BOQ Details"
+              Type="1" UniqueID="Z_mnu_22">
+      </Menu>-->
+
+      <!--<Menu Checked="0" Enabled="1" FatherUID="Z_mnu_01" Image="" Position="4" String="Project Budget Details"
+              Type="1" UniqueID="Z_mnu_05">
+      </Menu>-->
+
+      <!--<Menu Checked="0" Enabled="1" FatherUID="43520" Image="" Position="13" String="Project Management"
+         Type="2" UniqueID="Z_mnu_04">
+      </Menu>-->
+
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_04" Image="" Position="0" String="Project Setup"
+               Type="2" UniqueID="Z_mnu_204">
+      </Menu>
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_204" Image="" Position="0" String="Project Master Setup"
+              Type="1" UniqueID="Z_mnu_PRJ">
+      </Menu>
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_204" Image="" Position="1" String="Project Template Setup"
+               Type="1" UniqueID="Z_mnu_205">
+      </Menu>
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_204" Image="" Position="2" String="Project Budget Setup"
+               Type="1" UniqueID="Z_mnu_105">
+      </Menu>
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_204" Image="" Position="3" String="Contract Management"
+            Type="1" UniqueID="Z_mnu_305">
+      </Menu>
+      
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_204" Image="" Position="4" String="Project BOQ Details"
+                   Type="1" UniqueID="Z_mnu_22">
+      </Menu>
+
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_04" Image="" Position="1" String="Employee Self Service"
+								Type="2" UniqueID="Z_mnu_207">
+      </Menu>
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_207" Image="" Position="0" String="Time Sheet Entry"
+        Type="1" UniqueID="Z_mnu_06">
+      </Menu>
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_207" Image="" Position="1" String="Sub Contractor Time Sheet Entry"
+           Type="1" UniqueID="Z_mnu_117">
+      </Menu>
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_207" Image="" Position="2" String="Expense Claim Entry"
+								Type="1" UniqueID="Z_mnu_10">
+      </Menu>
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_207" Image="" Position="3" String="Leave Request"
+							Type="1" UniqueID="Z_mnu_20">
+      </Menu>
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_207" Image="" Position="4" String="My Tasks"
+           Type="1" UniqueID="Z_mnu_MyTasks">
+      </Menu>
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_207" Image="" Position="5" String="Change Password"
+           Type="1" UniqueID="Z_mnu_chPwd">
+      </Menu>
+      
+      
+
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_04" Image="" Position="2" String="Approvals"
+Type="2" UniqueID="Z_mnu_14">
+      </Menu>
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_14" Image="" Position="0" String="Time Sheet Approval"
+								Type="1" UniqueID="Z_mnu_07">
+      </Menu>
+   
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_14" Image="" Position="1" String="Expenses Approval"
+								Type="1" UniqueID="Z_mnu_11">
+      </Menu>
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_14" Image="" Position="2" String="Leave Approval"
+								Type="1" UniqueID="Z_mnu_19">
+      </Menu>
+      
+    
+      
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_04" Image="" Position="3" String="Expense Accounting"
+Type="2" UniqueID="Z_mnu_217">
+      </Menu>
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_217" Image="" Position="0" String="Expense Accounting"
+Type="1" UniqueID="Z_mnu_218">
+      </Menu>
+            
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_217" Image="" Position="1" String="Expense Posting"
+Type="1" UniqueID="Z_mnu_17">
+      </Menu>
+
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_04" Image="" Position="4" String="Reports"
+Type="1" UniqueID="Z_mnu_08">
+      </Menu>
+
+      <Menu Checked="0" Enabled="1" FatherUID="Z_mnu_04" Image="" Position="5" String="Project Report Wizard"
+Type="1" UniqueID="Z_mnu_PrjRpt">
+      </Menu>
+
+    </action>
+  </Menus>
+</Application>

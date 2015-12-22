@@ -1,0 +1,40 @@
+﻿<Application>
+	<Menus>
+		<action type="remove">
+      <!--<Menu UniqueID="Z_mnu_22"></Menu>-->			
+			<Menu UniqueID="Z_mnu_04"></Menu>
+      <Menu UniqueID="Z_mnu_01"></Menu>
+      <Menu UniqueID="Z_mnu_03"></Menu>
+      <Menu UniqueID="Z_mnu_02"></Menu>
+      <Menu UniqueID="Z_mnu_09"></Menu>
+      <Menu UniqueID="Z_mnu_16"></Menu>
+      <Menu UniqueID="Z_mnu_18"></Menu>
+      <Menu UniqueID="Z_mnu_15"></Menu>
+
+      <Menu UniqueID="Z_mnu_204"></Menu>
+      <Menu UniqueID="Z_mnu_205"></Menu>
+      <Menu UniqueID="Z_mnu_105"></Menu>
+      <Menu UniqueID="Z_mnu_305"></Menu>
+      <Menu UniqueID="Z_mnu_22"></Menu>
+
+      <Menu UniqueID="Z_mnu_207"></Menu>
+			<Menu UniqueID="Z_mnu_06"></Menu>
+			<Menu UniqueID="Z_mnu_10"></Menu>
+			<Menu UniqueID="Z_mnu_20"></Menu>
+
+      <Menu UniqueID="Z_mnu_14"></Menu>
+      <Menu UniqueID="Z_mnu_07"></Menu>
+      <Menu UniqueID="Z_mnu_11"></Menu>
+      <Menu UniqueID="Z_mnu_19"></Menu>
+      <menu uniqueID="Z_mnu_MyTasks"></menu>
+      <menu uniqueid="Z_mnu_chPwd"></menu>
+
+
+      <Menu UniqueID="Z_mnu_217"></Menu>
+      <Menu UniqueID="Z_mnu_218"></Menu>
+      <Menu UniqueID="Z_mnu_17"></Menu>
+      <Menu UniqueID="Z_mnu_08"></Menu>
+      <Menu UniqueID="Z_mnu_PrjRpt"></Menu>
+		</action>
+	</Menus>
+</Application>
